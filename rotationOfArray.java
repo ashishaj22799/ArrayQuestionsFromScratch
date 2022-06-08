@@ -117,7 +117,7 @@ class Rotation
         if (r < 0 || r >= arr.length) {
             return;
         }
- 
+         r= r%n; 
         // Reverse the first `r` elements
         reverse(arr, 0, r - 1);
  
